@@ -4,9 +4,9 @@ import shutil
 class sort():
     def sort():
         folder = r"C:/Users/user/Downloads"
-        phot = "C:/Users/user/Pictures/Рабочие Фото/Разобрать по папкам"
+        phot = "C:/Users/user/Pictures/Фото"
         os.makedirs(phot, exist_ok=True)
-        dst_folder = r"C:/Users/user/Pictures/Рабочие Фото/Разобрать по папкам"
+        dst_folder = r"C:/Users/user/Pictures/Фото"
         ext = ".jpg"
 
         photo = [
@@ -128,9 +128,9 @@ class sort():
 
     def sort5():
         folder = r"C:/Users/user/Downloads"
-        vide = "C:/Users/user/Videos/Разобрать по папкам"
+        vide = "C:/Users/user/Videos/Видео"
         os.makedirs(vide, exist_ok=True)
-        dst_folder5 = r"C:/Users/user/Videos/Разобрать по папкам"
+        dst_folder5 = r"C:/Users/user/Videos/Видео"
         ext7 = ".mp4"
 
         video = [
